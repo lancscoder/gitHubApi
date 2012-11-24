@@ -1,0 +1,19 @@
+todo:
+
+have list of gists
+	click to show each one
+
+have initalize method
+
+remove static
+
+wrap each request in restsharp
+
+have separate async methods
+
+have actual type
+
+restructure project
+
+
+

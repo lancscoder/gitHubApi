@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubApi", "GitHubApi\GitHubApi.csproj", "{4D88E45F-3F88-40AD-AB3E-4D17D5D06EB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubApi.WebTest", "GitHubApi.WebTest\GitHubApi.WebTest.csproj", "{2A7DB62B-5A2A-4344-95BF-D7A555622C1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D88E45F-3F88-40AD-AB3E-4D17D5D06EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D88E45F-3F88-40AD-AB3E-4D17D5D06EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D88E45F-3F88-40AD-AB3E-4D17D5D06EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D88E45F-3F88-40AD-AB3E-4D17D5D06EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A7DB62B-5A2A-4344-95BF-D7A555622C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7DB62B-5A2A-4344-95BF-D7A555622C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7DB62B-5A2A-4344-95BF-D7A555622C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7DB62B-5A2A-4344-95BF-D7A555622C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
