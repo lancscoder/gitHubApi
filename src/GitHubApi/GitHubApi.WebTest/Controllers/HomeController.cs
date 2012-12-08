@@ -5,33 +5,36 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 
+//namespace Foo
+//{
+//
+//	public class Bar
+//	{
+//		public void D()
+//		{
+//			GitHubApi.GitHubApi.Current;
+//		}
+//	}
+//}
+
 namespace GitHubApi.WebTest.Controllers
 {
 	public class HomeController : Controller
 	{
 		public async Task<ActionResult> Index()
 		{
-			using (var gist = new Gists())
-			{
-				var results = await gist.PublicAsync();
+			var results = await GitHubApi.Current.Gists.PublicAsync();
 
-				var d = 0;
-
-				ViewBag.Message = "";
-					//results.Result;
-			}
+			ViewBag.Message = results.Result.Count;
 
 			return View();
 		}
 
 		public ActionResult Index2()
 		{
-			using (var gist = new Gists())
-			{
-				var results = gist.Public();
+			var results = GitHubApi.Current.Gists.Public();
 
-				ViewBag.Message = results;
-			}
+			ViewBag.Message = results;
 
 			return View("Index");
 		}

@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace GitHubApi
 {
-	public abstract class Base : IDisposable
+	public interface IGitHubApi
 	{
-		public void Dispose()
-		{
-			//throw new NotImplementedException();
-		}
+		IGists Gists { get; }
 	}
 }
